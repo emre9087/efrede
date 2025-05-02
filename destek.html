@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lveb - Destek</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-container">
+
+            <a href="index.html" class="logo">
+
+                <i class="fas fa-robot logo-icon"></i>
+
+                <span>Lveb</span>
+
+            </a>
+
+            <nav>
+
+                <a href="index.html">Ana Sayfa</a>
+
+                <a href="tanıtım.html">Komutlar</a>
+
+                <a href="sunucular.html">Topluluk</a>
+
+                <a href="destek.html" class="active">Destek</a>
+
+                <a href="hakkımızda.html">Hakkında</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    
+
+    <div class="container">
+
+        <h1>Lveb Destek Merkezi</h1>
+
+        <p>Size nasıl yardımcı olabiliriz?</p>
+
+        
+
+        <div class="card-grid">
+
+            <div class="card">
+
+                <h2><i class="fas fa-question-circle"></i> Sık Sorulan Sorular</h2>
+
+                <div class="faq-item">
+
+                    <h3>Bot nasıl eklenir?</h3>
+
+                    <p>Ana sayfadaki "Sunucuya Ekle" butonuna tıklayarak botu sunucunuza ekleyebilirsiniz. Botun gerekli izinlere sahip olduğundan emin olun.</p>
+
+                </div>
+
+                <div class="faq-item">
+
+                    <h3>Komutlar nasıl kullanılır?</h3>
+
+                    <p>Botu sunucunuza ekledikten sonra <code>!yardım</code> komutunu kullanarak tüm komutları görebilirsiniz.</p>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="card">
+
+                <h2><i class="fas fa-life-ring"></i> Destek Talebi Gönder</h2>
+
+                <form class="support-form">
+
+                    <div class="form-group">
+
+                        <label for="name">Adınız</label>
+
+                        <input type="text" id="name" required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">E-posta</label>
+
+                        <input type="email" id="email" required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="subject">Konu</label>
+
+                        <select id="subject" required>
+
+                            <option value="">Seçiniz</option>
+
+                            <option value="technical">Teknik Sorun</option>
+
+                            <option value="suggestion">Öneri</option>
+
+                            <option value="other">Diğer</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="message">Mesajınız</label>
+
+                        <textarea id="message" rows="5" required></textarea>
+
+                    </div>
+
+                    <button type="submit" class="btn">
+
+                        <i class="fas fa-paper-plane"></i> Gönder
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <footer>
+
+        <div class="footer-links">
+
+            <a href="index.html">Ana Sayfa</a>
+
+            <a href="tanıtım.html">Komutlar</a>
+
+            <a href="sunucular.html">Topluluk</a>
+
+            <a href="destek.html">Destek</a>
+
+            <a href="hakkımızda.html">Hakkında</a>
+
+        </div>
+
+        <p class="copyright">© 2023 Lveb Bot. Tüm hakları saklıdır.</p>
+
+    </footer>
+
+</body>
+
+</html>
